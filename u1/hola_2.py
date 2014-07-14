@@ -1,0 +1,2 @@
+﻿print ("Hola mundo")
+input()
