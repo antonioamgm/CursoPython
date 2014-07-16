@@ -14,7 +14,7 @@ def egg():
 
 def unknown():
     print('unknown')
-
+#indica el valor aleatorio de foo
 foo = random.choice(['a', 'b', 'c', 'x'])
 
 # Primer metodo, el clásico

@@ -28,7 +28,7 @@ print("Mostrar el resultado de convertir 8 tipo hexadecimal: ", hex(8))
 
 
 
-
+''' comentarios en Python largos '''
 
 
 
