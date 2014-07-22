@@ -19,14 +19,14 @@ def listar():
 f = Frame(height=300,width=300)
 f.pack(padx=15,pady=15)
 
-logoimg = PhotoImage(file="JLMD.jpg")
+logoimg = PhotoImage(file="JLMD.gif")
 etiquetalogo = Label(f,image = logoimg)
 etiquetalogo.pack(side=TOP,padx=10,pady=10)
 
 titulo = Label(f,text="Agenda Telefónica",fg="blue",font=("Arial",24))
 titulo.pack(side=TOP,padx=10,pady=10)
 
-autor = Label(f,text="Jose Vicente Carratala")
+autor = Label(f,text="Jose Luis Merino")
 autor.pack(side=TOP,padx=10,pady=10)
 
 campo = Entry(f,textvariable = 5)
