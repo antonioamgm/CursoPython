@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: Ejemplo-Python-con-Tkinter
+Version: 0.1
+Summary: Ejemplo de ejecución de una aplicación Python con entorno gráfico Tkinter
+Home-page: www.anexpertforyou.com
+Author: José Luis Merino
+Author-email: jlmerdiez@gmail.com
+License: GPL
+Description: Un texto largo iría aquí.
+Platform: Win
+Platform: Mac
+Platform: Linux

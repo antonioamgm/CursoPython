@@ -1,0 +1,8 @@
+README
+setup.cfg
+setup.py
+tkhello.py
+Ejemplo_Python_con_Tkinter.egg-info/PKG-INFO
+Ejemplo_Python_con_Tkinter.egg-info/SOURCES.txt
+Ejemplo_Python_con_Tkinter.egg-info/dependency_links.txt
+Ejemplo_Python_con_Tkinter.egg-info/top_level.txt
