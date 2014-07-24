@@ -5,7 +5,7 @@ print(bbdd)
 
 c=bbdd.cursor()
 
-c.execute("""drop table empleados""")
+#c.execute("""drop table empleados""")
 
 c.execute("""create table empleados (dni text,
                     nombre text,
