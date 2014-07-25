@@ -8,5 +8,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'pdjango1.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
+    url(r'^blog/', 'blog.views.index'),
     url(r'^admin/', include(admin.site.urls)),
+
 )
