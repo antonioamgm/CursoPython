@@ -1,18 +1,15 @@
+from u7.Usuarios.Usuario import *
 import sqlite3 as dbapi
-import Usuario
+
 
 class Interfact(object):
     bbdd = dbapi.connect("bbdd.dat")
     def __init__(self):
         print("Clase menu cargado")
 
-
-    def insertUsuario(self):
-        Usuario.dni = input((print("Introduce dni: ")))
-        Usuario.nombre = input((print("Introduce nombre: ")))
-        Usuario.tlfn = input((print("Introduce teléfono: ")))
-        Usuario.mail = input((print("Introduce mail: ")))
-        return (Usuario.dni +', '+ Usuario.nombre + ', ' + Usuario.tlfn + ', ' + Usuario.mail)
+    user = Usuario()
+    def insertUsuario(self, user):
+        print(user.dni +', '+ user.nombre + ', ' + user.tlfn + ', ' + user.mail)
 #         self.bbdd.cursor()
 #         self.bbdd.execute("""insert into usuario(""" + campos + """
 #          values ('""" + datos + """') """)
@@ -27,6 +24,9 @@ class Interfact(object):
 
     def listarUsuario(self):
         print("Lista")
+
+
+
 
 
 
